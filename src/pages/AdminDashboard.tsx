@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { 
   Shield, 
   Users, 
@@ -14,8 +14,6 @@ import {
   Calendar,
   Building,
   Mail,
-  Phone,
-  ArrowLeft
 } from 'lucide-react';
 import { useClients } from '../contexts/ClientContext';
 import { getServiceById } from '../utils/mockData';
