@@ -1,0 +1,19 @@
+/* App-level styles */
+@import "tailwindcss";
+.App {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Ensure proper body styling */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
